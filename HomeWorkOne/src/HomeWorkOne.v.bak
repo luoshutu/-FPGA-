@@ -1,0 +1,141 @@
+/*
+module HomeWorkOne(
+	input				Asynch_in		,
+	input				clock					,
+	input				reset					,
+	
+	output	reg	Synch_out
+);
+
+reg temp = 1'b0;
+
+
+always@(posedge clock) begin
+	
+	if(reset) begin
+		
+		Synch_out	<=	1'b0			;
+		
+	end
+	else begin
+	
+		Synch_out	=	temp			;
+		temp			=	Asynch_in	;
+	
+	end
+
+end
+
+endmodule
+*/
+
+
+module HomeWorkOne(
+	input				clock				,
+	input				Asynch_in	,
+	
+	output	reg	Synch_out
+);
+
+reg		q1			=	1'b0				;
+reg		q2			=	1'b0				;
+wire		reset								;
+
+assign	reset	=	Synch_out&(~Asynch_in)	;
+
+always@(posedge clock) begin
+		
+	Synch_out	=	q2					;
+	q2						=	q1					;
+	
+end
+
+always@(posedge Asynch_in) begin
+		
+	if(reset) begin
+		
+		q1					=	1'b0				;
+		
+	end
+	else begin
+		
+		q1					=	1'b1				;
+	
+	end
+	
+end
+
+
+endmodule
+
+
+/*
+module HomeWorkOne(
+	input				Asynch_in		,
+	input				clock				,
+	input				reset				,
+	
+	output	reg	Synch_out
+);
+
+reg		q1		=	1'b0				;
+reg		q2		=	1'b0				;
+wire		temp1	=	1'b1				;
+wire		temp2	=	1'b1				;
+wire		clrq1	=	1'b1				;
+wire		clrq2	=	1'b1				;
+
+assign	temp1	=	Synch_out&(~Asynch_in)	;
+assign	temp2	=	Synch_out&(~Asynch_in)	;
+
+assign	clrq1	=	reset|temp1		;
+assign	clrq2	=	reset|temp2		;
+
+always@(posedge clock) begin
+		
+	if(reset) begin
+		
+		Synch_out=	1'b0				;
+		
+	end
+	else begin
+		
+		Synch_out=	q2					;
+	
+	end
+	
+end
+
+always@(posedge clock) begin
+		
+	if(clrq2) begin
+		
+		q2			=	1'b0				;
+		
+	end
+	else begin
+		
+		q2			=	q1					;
+	
+	end
+	
+end
+
+always@(posedge Asynch_in) begin
+		
+	if(clrq1) begin
+		
+		q1			=	1'b0				;
+		
+	end
+	else begin
+		
+		q1			=	1'b1				;
+	
+	end
+	
+end
+
+
+endmodule
+*/

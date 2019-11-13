@@ -1,0 +1,1356 @@
+# Reading D:/intelFPGA/modelsim_ase/tcl/vsim/pref.tcl
+# do HomeWorkFour_run_msim_gate_verilog.do
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.6d Lib Mapping Utility 2018.02 Feb 24 2018
+# vmap work gate_work 
+# Copying D:/intelFPGA/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+. {HomeWorkFour_7_1200mv_100c_slow.vo}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 22:27:52 on Apr 19,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+." HomeWorkFour_7_1200mv_100c_slow.vo 
+# -- Compiling module HomeWorkFour
+# -- Compiling module hard_block
+# 
+# Top level modules:
+# 	HomeWorkFour
+# End time: 22:27:52 on Apr 19,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim {C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/HomeWorkFour.vt}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 22:27:53 on Apr 19,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim" C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/HomeWorkFour.vt 
+# -- Compiling module HomeWorkFour_test
+# 
+# Top level modules:
+# 	HomeWorkFour_test
+# End time: 22:27:53 on Apr 19,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps +transport_int_delays +transport_path_delays -L altera_ver -L cycloneive_ver -L gate_work -L work -voptargs="+acc"  HomeWorkFour_test
+# vsim -t 1ps "+transport_int_delays" "+transport_path_delays" -L altera_ver -L cycloneive_ver -L gate_work -L work -voptargs=""+acc"" HomeWorkFour_test 
+# Start time: 22:27:53 on Apr 19,2019
+# Loading work.HomeWorkFour_test
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# Loading work.HomeWorkFour
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# Loading work.hard_block
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkFour_7_1200mv_100c_slow.vo(232): Instantiation of 'cycloneive_io_obuf' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkFour_test/i1 File: HomeWorkFour_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkFour_7_1200mv_100c_slow.vo(245): Instantiation of 'cycloneive_io_obuf' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkFour_test/i1 File: HomeWorkFour_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkFour_7_1200mv_100c_slow.vo(258): Instantiation of 'cycloneive_io_obuf' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkFour_test/i1 File: HomeWorkFour_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkFour_7_1200mv_100c_slow.vo(271): Instantiation of 'cycloneive_io_obuf' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkFour_test/i1 File: HomeWorkFour_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkFour_7_1200mv_100c_slow.vo(284): Instantiation of 'cycloneive_io_obuf' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkFour_test/i1 File: HomeWorkFour_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkFour_7_1200mv_100c_slow.vo(297): Instantiation of 'cycloneive_io_obuf' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkFour_test/i1 File: HomeWorkFour_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkFour_7_1200mv_100c_slow.vo(310): Instantiation of 'cycloneive_io_ibuf' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkFour_test/i1 File: HomeWorkFour_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkFour_7_1200mv_100c_slow.vo(320): Instantiation of 'cycloneive_clkctrl' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkFour_test/i1 File: HomeWorkFour_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkFour_7_1200mv_100c_slow.vo(333): Instantiation of 'cycloneive_io_ibuf' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkFour_test/i1 File: HomeWorkFour_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkFour_7_1200mv_100c_slow.vo(343): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkFour_test/i1 File: HomeWorkFour_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkFour_7_1200mv_100c_slow.vo(361): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkFour_test/i1 File: HomeWorkFour_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkFour_7_1200mv_100c_slow.vo(379): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkFour_test/i1 File: HomeWorkFour_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+# Loading altera_ver.dffeas
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkFour_7_1200mv_100c_slow.vo(415): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkFour_test/i1 File: HomeWorkFour_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkFour_7_1200mv_100c_slow.vo(452): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkFour_test/i1 File: HomeWorkFour_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkFour_7_1200mv_100c_slow.vo(489): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkFour_test/i1 File: HomeWorkFour_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkFour_7_1200mv_100c_slow.vo(526): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkFour_test/i1 File: HomeWorkFour_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkFour_7_1200mv_100c_slow.vo(543): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkFour_test/i1 File: HomeWorkFour_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkFour_7_1200mv_100c_slow.vo(580): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkFour_test/i1 File: HomeWorkFour_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkFour_7_1200mv_100c_slow.vo(616): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkFour_test/i1 File: HomeWorkFour_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkFour_7_1200mv_100c_slow.vo(633): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkFour_test/i1 File: HomeWorkFour_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkFour_7_1200mv_100c_slow.vo(669): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkFour_test/i1 File: HomeWorkFour_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkFour_7_1200mv_100c_slow.vo(686): Instantiation of 'cycloneive_io_ibuf' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkFour_test/i1 File: HomeWorkFour_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkFour_7_1200mv_100c_slow.vo(696): Instantiation of 'cycloneive_io_ibuf' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkFour_test/i1 File: HomeWorkFour_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkFour_7_1200mv_100c_slow.vo(706): Instantiation of 'cycloneive_io_ibuf' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkFour_test/i1 File: HomeWorkFour_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkFour_7_1200mv_100c_slow.vo(716): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkFour_test/i1 File: HomeWorkFour_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkFour_7_1200mv_100c_slow.vo(733): Instantiation of 'cycloneive_io_ibuf' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkFour_test/i1 File: HomeWorkFour_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkFour_7_1200mv_100c_slow.vo(743): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkFour_test/i1 File: HomeWorkFour_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkFour_7_1200mv_100c_slow.vo(760): Instantiation of 'cycloneive_io_ibuf' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkFour_test/i1 File: HomeWorkFour_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkFour_7_1200mv_100c_slow.vo(770): Instantiation of 'cycloneive_io_ibuf' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkFour_test/i1 File: HomeWorkFour_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkFour_7_1200mv_100c_slow.vo(780): Instantiation of 'cycloneive_io_ibuf' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkFour_test/i1 File: HomeWorkFour_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkFour_7_1200mv_100c_slow.vo(790): Instantiation of 'cycloneive_io_ibuf' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkFour_test/i1 File: HomeWorkFour_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkFour_7_1200mv_100c_slow.vo(800): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkFour_test/i1 File: HomeWorkFour_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkFour_7_1200mv_100c_slow.vo(817): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkFour_test/i1 File: HomeWorkFour_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkFour_7_1200mv_100c_slow.vo(834): Instantiation of 'cycloneive_io_ibuf' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkFour_test/i1 File: HomeWorkFour_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkFour_7_1200mv_100c_slow.vo(844): Instantiation of 'cycloneive_io_ibuf' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkFour_test/i1 File: HomeWorkFour_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkFour_7_1200mv_100c_slow.vo(854): Instantiation of 'cycloneive_io_ibuf' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkFour_test/i1 File: HomeWorkFour_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkFour_7_1200mv_100c_slow.vo(864): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkFour_test/i1 File: HomeWorkFour_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkFour_7_1200mv_100c_slow.vo(881): Instantiation of 'cycloneive_io_ibuf' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkFour_test/i1 File: HomeWorkFour_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkFour_7_1200mv_100c_slow.vo(891): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkFour_test/i1 File: HomeWorkFour_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkFour_7_1200mv_100c_slow.vo(908): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkFour_test/i1 File: HomeWorkFour_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkFour_7_1200mv_100c_slow.vo(925): Instantiation of 'cycloneive_io_ibuf' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkFour_test/i1 File: HomeWorkFour_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkFour_7_1200mv_100c_slow.vo(935): Instantiation of 'cycloneive_io_ibuf' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkFour_test/i1 File: HomeWorkFour_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkFour_7_1200mv_100c_slow.vo(945): Instantiation of 'cycloneive_io_ibuf' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkFour_test/i1 File: HomeWorkFour_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkFour_7_1200mv_100c_slow.vo(955): Instantiation of 'cycloneive_io_ibuf' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkFour_test/i1 File: HomeWorkFour_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkFour_7_1200mv_100c_slow.vo(965): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkFour_test/i1 File: HomeWorkFour_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkFour_7_1200mv_100c_slow.vo(982): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkFour_test/i1 File: HomeWorkFour_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkFour_7_1200mv_100c_slow.vo(999): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkFour_test/i1 File: HomeWorkFour_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkFour_7_1200mv_100c_slow.vo(1016): Instantiation of 'cycloneive_io_ibuf' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkFour_test/i1 File: HomeWorkFour_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkFour_7_1200mv_100c_slow.vo(1026): Instantiation of 'cycloneive_io_ibuf' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkFour_test/i1 File: HomeWorkFour_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkFour_7_1200mv_100c_slow.vo(1036): Instantiation of 'cycloneive_io_ibuf' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkFour_test/i1 File: HomeWorkFour_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkFour_7_1200mv_100c_slow.vo(1046): Instantiation of 'cycloneive_io_ibuf' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkFour_test/i1 File: HomeWorkFour_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkFour_7_1200mv_100c_slow.vo(1056): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkFour_test/i1 File: HomeWorkFour_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkFour_7_1200mv_100c_slow.vo(1073): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkFour_test/i1 File: HomeWorkFour_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkFour_7_1200mv_100c_slow.vo(1090): Instantiation of 'cycloneive_io_ibuf' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkFour_test/i1 File: HomeWorkFour_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkFour_7_1200mv_100c_slow.vo(1100): Instantiation of 'cycloneive_io_ibuf' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkFour_test/i1 File: HomeWorkFour_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkFour_7_1200mv_100c_slow.vo(1110): Instantiation of 'cycloneive_io_ibuf' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkFour_test/i1 File: HomeWorkFour_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkFour_7_1200mv_100c_slow.vo(1120): Instantiation of 'cycloneive_io_ibuf' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkFour_test/i1 File: HomeWorkFour_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkFour_7_1200mv_100c_slow.vo(1130): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkFour_test/i1 File: HomeWorkFour_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkFour_7_1200mv_100c_slow.vo(1147): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkFour_test/i1 File: HomeWorkFour_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkFour_7_1200mv_100c_slow.vo(1164): Instantiation of 'cycloneive_io_ibuf' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkFour_test/i1 File: HomeWorkFour_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkFour_7_1200mv_100c_slow.vo(1174): Instantiation of 'cycloneive_io_ibuf' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkFour_test/i1 File: HomeWorkFour_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkFour_7_1200mv_100c_slow.vo(1184): Instantiation of 'cycloneive_io_ibuf' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkFour_test/i1 File: HomeWorkFour_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkFour_7_1200mv_100c_slow.vo(1194): Instantiation of 'cycloneive_io_ibuf' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkFour_test/i1 File: HomeWorkFour_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkFour_7_1200mv_100c_slow.vo(1204): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkFour_test/i1 File: HomeWorkFour_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkFour_7_1200mv_100c_slow.vo(1221): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkFour_test/i1 File: HomeWorkFour_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkFour_7_1200mv_100c_slow.vo(1238): Instantiation of 'cycloneive_io_ibuf' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkFour_test/i1 File: HomeWorkFour_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkFour_7_1200mv_100c_slow.vo(1248): Instantiation of 'cycloneive_io_ibuf' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkFour_test/i1 File: HomeWorkFour_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkFour_7_1200mv_100c_slow.vo(1258): Instantiation of 'cycloneive_io_ibuf' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkFour_test/i1 File: HomeWorkFour_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkFour_7_1200mv_100c_slow.vo(1268): Instantiation of 'cycloneive_io_ibuf' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkFour_test/i1 File: HomeWorkFour_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkFour_7_1200mv_100c_slow.vo(1278): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkFour_test/i1 File: HomeWorkFour_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkFour_7_1200mv_100c_slow.vo(1295): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkFour_test/i1 File: HomeWorkFour_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkFour_7_1200mv_100c_slow.vo(1312): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkFour_test/i1 File: HomeWorkFour_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkFour_7_1200mv_100c_slow.vo(1329): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkFour_test/i1 File: HomeWorkFour_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkFour_7_1200mv_100c_slow.vo(1346): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkFour_test/i1 File: HomeWorkFour_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkFour_7_1200mv_100c_slow.vo(1363): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkFour_test/i1 File: HomeWorkFour_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkFour_7_1200mv_100c_slow.vo(1399): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkFour_test/i1 File: HomeWorkFour_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkFour_7_1200mv_100c_slow.vo(1416): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkFour_test/i1 File: HomeWorkFour_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkFour_7_1200mv_100c_slow.vo(1433): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkFour_test/i1 File: HomeWorkFour_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkFour_7_1200mv_100c_slow.vo(1470): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkFour_test/i1 File: HomeWorkFour_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkFour_7_1200mv_100c_slow.vo(1507): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkFour_test/i1 File: HomeWorkFour_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkFour_7_1200mv_100c_slow.vo(1544): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkFour_test/i1 File: HomeWorkFour_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkFour_7_1200mv_100c_slow.vo(1581): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkFour_test/i1 File: HomeWorkFour_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkFour_7_1200mv_100c_slow.vo(1617): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkFour_test/i1 File: HomeWorkFour_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkFour_7_1200mv_100c_slow.vo(1634): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkFour_test/i1 File: HomeWorkFour_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkFour_7_1200mv_100c_slow.vo(1651): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkFour_test/i1 File: HomeWorkFour_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkFour_7_1200mv_100c_slow.vo(1687): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkFour_test/i1 File: HomeWorkFour_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkFour_7_1200mv_100c_slow.vo(1723): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkFour_test/i1 File: HomeWorkFour_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkFour_7_1200mv_100c_slow.vo(1759): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkFour_test/i1 File: HomeWorkFour_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkFour_7_1200mv_100c_slow.vo(1795): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkFour_test/i1 File: HomeWorkFour_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkFour_7_1200mv_100c_slow.vo(1831): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkFour_test/i1 File: HomeWorkFour_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkFour_7_1200mv_100c_slow.vo(1848): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkFour_test/i1 File: HomeWorkFour_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkFour_7_1200mv_100c_slow.vo(1865): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkFour_test/i1 File: HomeWorkFour_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkFour_7_1200mv_100c_slow.vo(1882): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkFour_test/i1 File: HomeWorkFour_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkFour_7_1200mv_100c_slow.vo(1899): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkFour_test/i1 File: HomeWorkFour_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkFour_7_1200mv_100c_slow.vo(1916): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkFour_test/i1 File: HomeWorkFour_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkFour_7_1200mv_100c_slow.vo(1933): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkFour_test/i1 File: HomeWorkFour_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkFour_7_1200mv_100c_slow.vo(1950): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkFour_test/i1 File: HomeWorkFour_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkFour_7_1200mv_100c_slow.vo(1986): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkFour_test/i1 File: HomeWorkFour_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkFour_7_1200mv_100c_slow.vo(2003): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkFour_test/i1 File: HomeWorkFour_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkFour_7_1200mv_100c_slow.vo(2039): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkFour_test/i1 File: HomeWorkFour_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkFour_7_1200mv_100c_slow.vo(2056): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkFour_test/i1 File: HomeWorkFour_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkFour_7_1200mv_100c_slow.vo(2073): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkFour_test/i1 File: HomeWorkFour_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkFour_7_1200mv_100c_slow.vo(2109): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkFour_test/i1 File: HomeWorkFour_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/gate_work
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./HomeWorkFour_run_msim_gate_verilog.do PAUSED at line 12
+vlog -vlog01compat -work work +incdir+C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/HomeWorkFour.vt
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 22:28:09 on Apr 19,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim" C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/HomeWorkFour.vt 
+# -- Compiling module HomeWorkFour_test
+# 
+# Top level modules:
+# 	HomeWorkFour_test
+# End time: 22:28:09 on Apr 19,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -vlog01compat -work work +incdir+. C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/HomeWorkFour_7_1200mv_100c_slow.vo
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 22:28:13 on Apr 19,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+." C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/HomeWorkFour_7_1200mv_100c_slow.vo 
+# -- Compiling module HomeWorkFour
+# -- Compiling module hard_block
+# 
+# Top level modules:
+# 	HomeWorkFour
+# End time: 22:28:13 on Apr 19,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -t 1ps +transport_int_delays +transport_path_delays -L altera_ver -L cycloneive_ver -L gate_work -L work -L altera_base_v -L altera_device -voptargs=\"+acc\" work.HomeWorkFour_test -sdftyp /i1=C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/HomeWorkFour_7_1200mv_-40c_v_slow.sdo
+# vsim -t 1ps "+transport_int_delays" "+transport_path_delays" -L altera_ver -L cycloneive_ver -L gate_work -L work -L altera_base_v -L altera_device -voptargs=""+acc"" work.HomeWorkFour_test -sdftyp "/i1=C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/HomeWorkFour_7_1200mv_-40c_v_slow.sdo" 
+# Start time: 22:27:53 on Apr 19,2019
+# Loading work.HomeWorkFour_test
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# Loading work.HomeWorkFour
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# Loading work.hard_block
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# Loading altera_device.cycloneive_io_obuf
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# Loading altera_device.cycloneive_io_ibuf
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# Loading altera_device.cycloneive_clkctrl
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# Loading altera_device.cycloneive_mux41
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# Loading altera_device.cycloneive_ena_reg
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# Loading altera_device.cycloneive_lcell_comb
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# Loading altera_ver.dffeas
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# SDF 10.6d Compiler 2018.02 Feb 24 2018
+# 
+# SDF 10.6d Compiler 2018.02 Feb 24 2018
+# 
+# Loading instances from C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/HomeWorkFour_7_1200mv_-40c_v_slow.sdo
+# Loading instances from HomeWorkFour_7_1200mv_100c_v_slow.sdo
+# Loading altera_ver.PRIM_GDFF_LOW
+# Loading timing data from C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/HomeWorkFour_7_1200mv_-40c_v_slow.sdo
+# Loading timing data from HomeWorkFour_7_1200mv_100c_v_slow.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkFour_test File: C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/HomeWorkFour.vt
+add wave -position insertpoint  \
+sim:/HomeWorkFour_test/clk
+add wave -position insertpoint  \
+sim:/HomeWorkFour_test/Data
+add wave -position insertpoint  \
+sim:/HomeWorkFour_test/Gap
+add wave -position insertpoint  \
+sim:/HomeWorkFour_test/Gap \
+sim:/HomeWorkFour_test/rst
+run -all
+# ** Note: $stop    : C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/HomeWorkFour.vt(75)
+#    Time: 2200 ns  Iteration: 0  Instance: /HomeWorkFour_test
+# Break in Module HomeWorkFour_test at C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/HomeWorkFour.vt line 75
+# End time: 23:49:39 on Apr 19,2019, Elapsed time: 1:21:46
+# Errors: 419, Warnings: 0

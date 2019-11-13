@@ -1,0 +1,77 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 100C Model Setup 'Asynch_in'
+Slack : -0.860
+TNS   : -0.860
+
+Type  : Slow 1200mV 100C Model Setup 'clock'
+Slack : -0.621
+TNS   : -0.621
+
+Type  : Slow 1200mV 100C Model Hold 'clock'
+Slack : 0.436
+TNS   : 0.000
+
+Type  : Slow 1200mV 100C Model Hold 'Asynch_in'
+Slack : 0.652
+TNS   : 0.000
+
+Type  : Slow 1200mV 100C Model Minimum Pulse Width 'clock'
+Slack : -3.000
+TNS   : -5.570
+
+Type  : Slow 1200mV 100C Model Minimum Pulse Width 'Asynch_in'
+Slack : -3.000
+TNS   : -4.285
+
+Type  : Slow 1200mV -40C Model Setup 'clock'
+Slack : -0.539
+TNS   : -0.539
+
+Type  : Slow 1200mV -40C Model Setup 'Asynch_in'
+Slack : -0.532
+TNS   : -0.532
+
+Type  : Slow 1200mV -40C Model Hold 'clock'
+Slack : 0.394
+TNS   : 0.000
+
+Type  : Slow 1200mV -40C Model Hold 'Asynch_in'
+Slack : 0.618
+TNS   : 0.000
+
+Type  : Slow 1200mV -40C Model Minimum Pulse Width 'clock'
+Slack : -3.000
+TNS   : -5.570
+
+Type  : Slow 1200mV -40C Model Minimum Pulse Width 'Asynch_in'
+Slack : -3.000
+TNS   : -4.285
+
+Type  : Fast 1200mV -40C Model Setup 'Asynch_in'
+Slack : -0.400
+TNS   : -0.400
+
+Type  : Fast 1200mV -40C Model Setup 'clock'
+Slack : 0.249
+TNS   : 0.000
+
+Type  : Fast 1200mV -40C Model Hold 'clock'
+Slack : 0.181
+TNS   : 0.000
+
+Type  : Fast 1200mV -40C Model Hold 'Asynch_in'
+Slack : 0.258
+TNS   : 0.000
+
+Type  : Fast 1200mV -40C Model Minimum Pulse Width 'clock'
+Slack : -3.000
+TNS   : -5.106
+
+Type  : Fast 1200mV -40C Model Minimum Pulse Width 'Asynch_in'
+Slack : -3.000
+TNS   : -4.064
+
+------------------------------------------------------------

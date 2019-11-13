@@ -1,0 +1,60 @@
+# Reading D:/intelFPGA/modelsim_ase/tcl/vsim/pref.tcl
+# do HomeWorkOne_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.6d Lib Mapping Utility 2018.02 Feb 24 2018
+# vmap work rtl_work 
+# Copying D:/intelFPGA/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Administrator/Desktop/HomeWorkOne/src {C:/Users/Administrator/Desktop/HomeWorkOne/src/HomeWorkOne.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 13:57:23 on Mar 26,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Administrator/Desktop/HomeWorkOne/src" C:/Users/Administrator/Desktop/HomeWorkOne/src/HomeWorkOne.v 
+# -- Compiling module HomeWorkOne
+# 
+# Top level modules:
+# 	HomeWorkOne
+# End time: 13:57:23 on Mar 26,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Administrator/Desktop/HomeWorkOne/simulation/modelsim {C:/Users/Administrator/Desktop/HomeWorkOne/simulation/modelsim/HomeWorkOne.vt}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 13:57:24 on Mar 26,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Administrator/Desktop/HomeWorkOne/simulation/modelsim" C:/Users/Administrator/Desktop/HomeWorkOne/simulation/modelsim/HomeWorkOne.vt 
+# -- Compiling module HomeWorkOne_test
+# 
+# Top level modules:
+# 	HomeWorkOne_test
+# End time: 13:57:24 on Mar 26,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  HomeWorkOne_test
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" HomeWorkOne_test 
+# Start time: 13:57:24 on Mar 26,2019
+# Loading work.HomeWorkOne_test
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# Loading work.HomeWorkOne
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Note: $stop    : C:/Users/Administrator/Desktop/HomeWorkOne/simulation/modelsim/HomeWorkOne.vt(65)
+#    Time: 580 ns  Iteration: 0  Instance: /HomeWorkOne_test
+# Break in Module HomeWorkOne_test at C:/Users/Administrator/Desktop/HomeWorkOne/simulation/modelsim/HomeWorkOne.vt line 65
+restart -f
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+run -all
+# ** Note: $stop    : C:/Users/Administrator/Desktop/HomeWorkOne/simulation/modelsim/HomeWorkOne.vt(65)
+#    Time: 580 ns  Iteration: 0  Instance: /HomeWorkOne_test
+# Break in Module HomeWorkOne_test at C:/Users/Administrator/Desktop/HomeWorkOne/simulation/modelsim/HomeWorkOne.vt line 65
+# End time: 14:11:21 on Mar 26,2019, Elapsed time: 0:13:57
+# Errors: 0, Warnings: 0

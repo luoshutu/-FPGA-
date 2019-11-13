@@ -1,0 +1,177 @@
+# Reading D:/intelFPGA/modelsim_ase/tcl/vsim/pref.tcl
+# do HomeWorkThree_run_msim_gate_verilog.do
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.6d Lib Mapping Utility 2018.02 Feb 24 2018
+# vmap work gate_work 
+# Copying D:/intelFPGA/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+. {HomeWorkThree_7_1200mv_100c_slow.vo}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 14:22:20 on Mar 26,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+." HomeWorkThree_7_1200mv_100c_slow.vo 
+# -- Compiling module HomeWorkThree
+# -- Compiling module hard_block
+# 
+# Top level modules:
+# 	HomeWorkThree
+# End time: 14:22:20 on Mar 26,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Administrator/Desktop/HomeWorkThree/simulation/modelsim {C:/Users/Administrator/Desktop/HomeWorkThree/simulation/modelsim/HomeWorkThree.vt}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 14:22:21 on Mar 26,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Administrator/Desktop/HomeWorkThree/simulation/modelsim" C:/Users/Administrator/Desktop/HomeWorkThree/simulation/modelsim/HomeWorkThree.vt 
+# -- Compiling module HomeWorkThree_test
+# 
+# Top level modules:
+# 	HomeWorkThree_test
+# End time: 14:22:21 on Mar 26,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps +transport_int_delays +transport_path_delays -L altera_ver -L cycloneive_ver -L gate_work -L work -voptargs="+acc"  HomeWorkThree_test
+# vsim -t 1ps "+transport_int_delays" "+transport_path_delays" -L altera_ver -L cycloneive_ver -L gate_work -L work -voptargs=""+acc"" HomeWorkThree_test 
+# Start time: 14:22:21 on Mar 26,2019
+# Loading work.HomeWorkThree_test
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# Loading work.HomeWorkThree
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# Loading work.hard_block
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkThree_7_1200mv_100c_slow.vo(83): Instantiation of 'cycloneive_io_obuf' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkThree_test/i1 File: HomeWorkThree_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkThree/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkThree/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkThree_7_1200mv_100c_slow.vo(96): Instantiation of 'cycloneive_io_ibuf' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkThree_test/i1 File: HomeWorkThree_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkThree/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkThree/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkThree_7_1200mv_100c_slow.vo(106): Instantiation of 'cycloneive_clkctrl' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkThree_test/i1 File: HomeWorkThree_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkThree/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkThree/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkThree_7_1200mv_100c_slow.vo(119): Instantiation of 'cycloneive_io_ibuf' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkThree_test/i1 File: HomeWorkThree_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkThree/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkThree/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkThree_7_1200mv_100c_slow.vo(129): Instantiation of 'cycloneive_io_ibuf' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkThree_test/i1 File: HomeWorkThree_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkThree/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkThree/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkThree_7_1200mv_100c_slow.vo(139): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkThree_test/i1 File: HomeWorkThree_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkThree/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkThree/simulation/modelsim/gate_work
+# Loading altera_ver.dffeas
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkThree_7_1200mv_100c_slow.vo(175): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkThree_test/i1 File: HomeWorkThree_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkThree/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkThree/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkThree_7_1200mv_100c_slow.vo(192): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkThree_test/i1 File: HomeWorkThree_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkThree/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkThree/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) HomeWorkThree_7_1200mv_100c_slow.vo(228): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkThree_test/i1 File: HomeWorkThree_7_1200mv_100c_slow.vo
+#         Searched libraries:
+#             D:/intelFPGA/modelsim_ase/altera/verilog/altera
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/Administrator/Desktop/HomeWorkThree/simulation/modelsim/gate_work
+#             C:/Users/Administrator/Desktop/HomeWorkThree/simulation/modelsim/gate_work
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./HomeWorkThree_run_msim_gate_verilog.do PAUSED at line 12
+vsim -t 1ps +transport_int_delays +transport_path_delays -L altera_ver -L cycloneive_ver -L gate_work -L work -L altera_device -voptargs=\"+acc\" work.HomeWorkThree_test -Lf altera_device
+# vsim -t 1ps "+transport_int_delays" "+transport_path_delays" -L altera_ver -L cycloneive_ver -L gate_work -L work -L altera_device -voptargs=""+acc"" work.HomeWorkThree_test -Lf altera_device 
+# Start time: 14:22:21 on Mar 26,2019
+# Loading work.HomeWorkThree_test
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# Loading work.HomeWorkThree
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneive_ver' at "cycloneive_ver".
+# No such file or directory. (errno = ENOENT)
+# Loading work.hard_block
+# Loading altera_device.cycloneive_io_obuf
+# Loading altera_device.cycloneive_io_ibuf
+# Loading altera_device.cycloneive_clkctrl
+# Loading altera_device.cycloneive_mux41
+# Loading altera_device.cycloneive_ena_reg
+# Loading altera_device.cycloneive_lcell_comb
+# Loading altera_ver.dffeas
+# Loading instances from HomeWorkThree_7_1200mv_100c_v_slow.sdo
+# Loading altera_ver.PRIM_GDFF_LOW
+# Loading timing data from HomeWorkThree_7_1200mv_100c_v_slow.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /HomeWorkThree_test File: C:/Users/Administrator/Desktop/HomeWorkThree/simulation/modelsim/HomeWorkThree.vt
+add wave -position insertpoint  \
+sim:/HomeWorkThree_test/Asynch_in
+add wave -position insertpoint  \
+sim:/HomeWorkThree_test/clock
+add wave -position insertpoint  \
+sim:/HomeWorkThree_test/reset
+add wave -position insertpoint  \
+sim:/HomeWorkThree_test/Synch_out
+# Load canceled
+run -all
+# ** Note: $stop    : C:/Users/Administrator/Desktop/HomeWorkThree/simulation/modelsim/HomeWorkThree.vt(65)
+#    Time: 580 ns  Iteration: 0  Instance: /HomeWorkThree_test
+# Break in Module HomeWorkThree_test at C:/Users/Administrator/Desktop/HomeWorkThree/simulation/modelsim/HomeWorkThree.vt line 65
+# End time: 14:34:06 on Mar 26,2019, Elapsed time: 0:11:45
+# Errors: 32, Warnings: 0

@@ -1,0 +1,83 @@
+// Copyright (C) 2017  Intel Corporation. All rights reserved.
+// Your use of Intel Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Intel Program License 
+// Subscription Agreement, the Intel Quartus Prime License Agreement,
+// the Intel FPGA IP License Agreement, or other applicable license
+// agreement, including, without limitation, that your use is for
+// the sole purpose of programming logic devices manufactured by
+// Intel and sold by Intel or its authorized distributors.  Please
+// refer to the applicable agreement for further details.
+
+// *****************************************************************************
+// This file contains a Verilog test bench template that is freely editable to  
+// suit user's needs .Comments are provided in each section to help the user    
+// fill out necessary details.                                                  
+// *****************************************************************************
+// Generated on "04/17/2019 23:34:18"
+                                                                                
+// Verilog Test Bench template for design : HomeWorkFour
+// 
+// Simulation tool : ModelSim-Altera (Verilog)
+// 
+
+`timescale 1 ns/ 1 ps
+module HomeWorkFour_test();
+// test vector input registers
+reg clk;
+reg [31:0] Data;
+reg rst;
+// wires                                               
+wire [5:0]  Gap;
+
+// assign statements (if any)                          
+HomeWorkFour i1 (
+// port map - connection between master ports and signals/registers   
+	.clk(clk),
+	.Data(Data),
+	.Gap(Gap),
+	.rst(rst)
+);
+initial	begin
+	clk				= 1'b0		;
+	rst 			= 1'b1		;
+	Data			= 32'b0	;
+	
+	#50								;
+	rst				=	1'b0		;
+	
+	Data			=	32'h0	;
+	#500							;
+	
+	rst 			= 1'b1		;
+	#50								;
+	rst				=	1'b0		;	
+	
+	Data			=	32'hf0e8_8fef	;
+	#500							;
+	
+	rst 			= 1'b1		;
+	#50								;
+	rst				=	1'b0		;
+	
+	Data			=	32'hf008_8fef	;
+	#500							;
+	
+	rst 			= 1'b1		;
+	#50								;
+	rst				=	1'b0		;
+	
+	Data			=	32'hffff_ffff		;
+	#500							;
+	$stop;
+end
+
+always begin
+	#5 clk = ~clk;
+end
+				
+endmodule
+

@@ -1,0 +1,56 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Administrator/Desktop/HomeWorkThree/simulation/modelsim
+vHomeWorkThree
+!s110 1553580797
+!i10b 1
+!s100 z;FIe@1Tn^RABPB]OaXMI0
+IFIDhShMM_5bhJfj0g5F7=0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1553566986
+8C:/Users/Administrator/Desktop/HomeWorkThree/src/HomeWorkThree.v
+FC:/Users/Administrator/Desktop/HomeWorkThree/src/HomeWorkThree.v
+L0 1
+Z2 OV;L;10.6d;65
+r1
+!s85 0
+31
+!s108 1553580797.000000
+!s107 C:/Users/Administrator/Desktop/HomeWorkThree/src/HomeWorkThree.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Administrator/Desktop/HomeWorkThree/src|C:/Users/Administrator/Desktop/HomeWorkThree/src/HomeWorkThree.v|
+!i113 1
+Z3 o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+C:/Users/Administrator/Desktop/HomeWorkThree/src
+Z4 tCvgOpt 0
+n@home@work@three
+vHomeWorkThree_test
+!s110 1553580798
+!i10b 1
+!s100 ?K>2TYfLmdGeEG_=`bQkK2
+IzASD8>aX^QM]ePCdnf]VE3
+R1
+R0
+w1553580780
+8C:/Users/Administrator/Desktop/HomeWorkThree/simulation/modelsim/HomeWorkThree.vt
+FC:/Users/Administrator/Desktop/HomeWorkThree/simulation/modelsim/HomeWorkThree.vt
+L0 28
+R2
+r1
+!s85 0
+31
+!s108 1553580798.000000
+!s107 C:/Users/Administrator/Desktop/HomeWorkThree/simulation/modelsim/HomeWorkThree.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Administrator/Desktop/HomeWorkThree/simulation/modelsim|C:/Users/Administrator/Desktop/HomeWorkThree/simulation/modelsim/HomeWorkThree.vt|
+!i113 1
+R3
+!s92 -vlog01compat -work work +incdir+C:/Users/Administrator/Desktop/HomeWorkThree/simulation/modelsim
+R4
+n@home@work@three_test

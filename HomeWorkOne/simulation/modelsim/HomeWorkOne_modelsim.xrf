@@ -1,0 +1,16 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/Administrator/Desktop/HomeWorkOne/src/HomeWorkOne.v
+source_file = 1, C:/Users/Administrator/Desktop/HomeWorkOne/db/HomeWorkOne.cbx.xml
+design_name = HomeWorkOne
+instance = comp, \Synch_out~output , Synch_out~output, HomeWorkOne, 1
+instance = comp, \clock~input , clock~input, HomeWorkOne, 1
+instance = comp, \clock~inputclkctrl , clock~inputclkctrl, HomeWorkOne, 1
+instance = comp, \reset~input , reset~input, HomeWorkOne, 1
+instance = comp, \Asynch_in~input , Asynch_in~input, HomeWorkOne, 1
+instance = comp, \temp~0 , temp~0, HomeWorkOne, 1
+instance = comp, \Synch_out~0 , Synch_out~0, HomeWorkOne, 1
+instance = comp, \Synch_out~reg0 , Synch_out~reg0, HomeWorkOne, 1
+design_name = hard_block
+instance = comp, \~ALTERA_ASDO_DATA1~~ibuf , ~ALTERA_ASDO_DATA1~~ibuf, hard_block, 1
+instance = comp, \~ALTERA_FLASH_nCE_nCSO~~ibuf , ~ALTERA_FLASH_nCE_nCSO~~ibuf, hard_block, 1
+instance = comp, \~ALTERA_DATA0~~ibuf , ~ALTERA_DATA0~~ibuf, hard_block, 1

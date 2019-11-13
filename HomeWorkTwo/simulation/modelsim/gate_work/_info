@@ -1,0 +1,78 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Administrator/Desktop/HomeWorkTwo/simulation/modelsim
+vhard_block
+Z1 !s110 1553572101
+!i10b 1
+!s100 k`422bhZ8?@QCZWh9_C]Y3
+IW;k7V6j^Yc7l?6?XNEmzX0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1553572037
+Z4 8HomeWorkTwo_7_1200mv_100c_slow.vo
+Z5 FHomeWorkTwo_7_1200mv_100c_slow.vo
+L0 235
+Z6 OV;L;10.6d;65
+r1
+!s85 0
+31
+Z7 !s108 1553572101.000000
+Z8 !s107 HomeWorkTwo_7_1200mv_100c_slow.vo|
+Z9 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|HomeWorkTwo_7_1200mv_100c_slow.vo|
+!i113 1
+Z10 o-vlog01compat -work work
+Z11 !s92 -vlog01compat -work work +incdir+.
+Z12 tCvgOpt 0
+vHomeWorkTwo
+R1
+!i10b 1
+!s100 O=>6O45fbWc=NO^TmW7EW2
+IBz`BThJ2EzA<DZzoBPP=@0
+R2
+R0
+R3
+R4
+R5
+L0 31
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@home@work@two
+vHomeWorkTwo_test
+!s110 1553572102
+!i10b 1
+!s100 RH0]_h`_0eYP@]dJmXHS=1
+I^[<dMfefYIlzd5Oe4<5gR2
+R2
+R0
+w1553571880
+8C:/Users/Administrator/Desktop/HomeWorkTwo/simulation/modelsim/HomeWorkTwo.vt
+FC:/Users/Administrator/Desktop/HomeWorkTwo/simulation/modelsim/HomeWorkTwo.vt
+L0 28
+R6
+r1
+!s85 0
+31
+!s108 1553572102.000000
+!s107 C:/Users/Administrator/Desktop/HomeWorkTwo/simulation/modelsim/HomeWorkTwo.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Administrator/Desktop/HomeWorkTwo/simulation/modelsim|C:/Users/Administrator/Desktop/HomeWorkTwo/simulation/modelsim/HomeWorkTwo.vt|
+!i113 1
+R10
+!s92 -vlog01compat -work work +incdir+C:/Users/Administrator/Desktop/HomeWorkTwo/simulation/modelsim
+R12
+n@home@work@two_test

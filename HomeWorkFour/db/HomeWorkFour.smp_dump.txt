@@ -1,0 +1,7 @@
+
+State Machine - |HomeWorkFour|state
+Name state.s_done state.s_2 state.s_1 state.s_idle 
+state.s_idle 0 0 0 0 
+state.s_1 0 0 1 1 
+state.s_2 0 1 0 1 
+state.s_done 1 0 0 1 

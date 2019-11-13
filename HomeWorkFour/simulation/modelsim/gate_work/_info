@@ -1,0 +1,78 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim
+vhard_block
+Z1 !s110 1555684093
+!i10b 1
+!s100 S8Ak:k7?<mY[>DbB5=lj90
+ICk>PXh>8IV]QQ9XN2F^fZ1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1555683794
+Z4 8C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/HomeWorkFour_7_1200mv_100c_slow.vo
+Z5 FC:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/HomeWorkFour_7_1200mv_100c_slow.vo
+L0 2158
+Z6 OV;L;10.6d;65
+r1
+!s85 0
+31
+Z7 !s108 1555684093.000000
+!s107 C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/HomeWorkFour_7_1200mv_100c_slow.vo|
+Z8 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/HomeWorkFour_7_1200mv_100c_slow.vo|
+!i113 1
+Z9 o-vlog01compat -work work
+Z10 !s92 -vlog01compat -work work +incdir+.
+Z11 tCvgOpt 0
+vHomeWorkFour
+R1
+!i10b 1
+!s100 L>4klFHU6PAd3<<QF0;z73
+IBRJm>ci]TjAH8Zo`]1]:d2
+R2
+R0
+R3
+R4
+R5
+L0 31
+R6
+r1
+!s85 0
+31
+R7
+Z12 !s107 C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/HomeWorkFour_7_1200mv_100c_slow.vo|
+R8
+!i113 1
+R9
+R10
+R11
+n@home@work@four
+vHomeWorkFour_test
+!s110 1555684089
+!i10b 1
+!s100 jN>VHWR>hJDHRjoT3Dd<L0
+IY9Z^h9V91M>:@gDno7N3o0
+R2
+R0
+w1555684050
+8C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/HomeWorkFour.vt
+FC:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/HomeWorkFour.vt
+L0 28
+R6
+r1
+!s85 0
+31
+!s108 1555684089.000000
+!s107 C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/HomeWorkFour.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim|C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim/HomeWorkFour.vt|
+!i113 1
+R9
+!s92 -vlog01compat -work work +incdir+C:/Users/Administrator/Desktop/HomeWorkFour/simulation/modelsim
+R11
+n@home@work@four_test

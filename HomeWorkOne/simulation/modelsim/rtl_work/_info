@@ -1,0 +1,56 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Administrator/Desktop/HomeWorkOne/simulation/modelsim
+vHomeWorkOne
+!s110 1553579843
+!i10b 1
+!s100 ]@hbbTM0A@oiX]0C_K>?O2
+I?SQ^GPmWFJ6HFh^D`2SJ22
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1553576411
+8C:/Users/Administrator/Desktop/HomeWorkOne/src/HomeWorkOne.v
+FC:/Users/Administrator/Desktop/HomeWorkOne/src/HomeWorkOne.v
+L0 1
+Z2 OV;L;10.6d;65
+r1
+!s85 0
+31
+!s108 1553579843.000000
+!s107 C:/Users/Administrator/Desktop/HomeWorkOne/src/HomeWorkOne.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Administrator/Desktop/HomeWorkOne/src|C:/Users/Administrator/Desktop/HomeWorkOne/src/HomeWorkOne.v|
+!i113 1
+Z3 o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+C:/Users/Administrator/Desktop/HomeWorkOne/src
+Z4 tCvgOpt 0
+n@home@work@one
+vHomeWorkOne_test
+!s110 1553579844
+!i10b 1
+!s100 >B`2<6gD9VWCU^be2K2DJ1
+ITRN=cJ6a]h:N5B26cL:b?2
+R1
+R0
+w1553579830
+8C:/Users/Administrator/Desktop/HomeWorkOne/simulation/modelsim/HomeWorkOne.vt
+FC:/Users/Administrator/Desktop/HomeWorkOne/simulation/modelsim/HomeWorkOne.vt
+L0 28
+R2
+r1
+!s85 0
+31
+!s108 1553579844.000000
+!s107 C:/Users/Administrator/Desktop/HomeWorkOne/simulation/modelsim/HomeWorkOne.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Administrator/Desktop/HomeWorkOne/simulation/modelsim|C:/Users/Administrator/Desktop/HomeWorkOne/simulation/modelsim/HomeWorkOne.vt|
+!i113 1
+R3
+!s92 -vlog01compat -work work +incdir+C:/Users/Administrator/Desktop/HomeWorkOne/simulation/modelsim
+R4
+n@home@work@one_test

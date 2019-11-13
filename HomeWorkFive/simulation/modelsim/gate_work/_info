@@ -1,0 +1,78 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Administrator/Desktop/HomeWorkFive/simulation/modelsim
+vhard_block
+Z1 !s110 1556503543
+!i10b 1
+!s100 `:aA@C230;8]VLXaBKY0E0
+I8Sld3;LMh_@>=bY]02]X<1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1556502357
+Z4 8C:/Users/Administrator/Desktop/HomeWorkFive/simulation/modelsim/HomeWorkFive_7_1200mv_100c_slow.vo
+Z5 FC:/Users/Administrator/Desktop/HomeWorkFive/simulation/modelsim/HomeWorkFive_7_1200mv_100c_slow.vo
+L0 4906
+Z6 OV;L;10.6d;65
+r1
+!s85 0
+31
+Z7 !s108 1556503543.000000
+Z8 !s107 C:/Users/Administrator/Desktop/HomeWorkFive/simulation/modelsim/HomeWorkFive_7_1200mv_100c_slow.vo|
+Z9 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|C:/Users/Administrator/Desktop/HomeWorkFive/simulation/modelsim/HomeWorkFive_7_1200mv_100c_slow.vo|
+!i113 1
+Z10 o-vlog01compat -work work
+Z11 !s92 -vlog01compat -work work +incdir+.
+Z12 tCvgOpt 0
+vHomeWorkFive
+R1
+!i10b 1
+!s100 QCG;aedN_oYSWz5MH?Zk23
+IA<O]e]?bII1^f;ZiTheM40
+R2
+R0
+R3
+R4
+R5
+L0 31
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@home@work@five
+vHomeWorkFive_test
+!s110 1556503545
+!i10b 1
+!s100 CQ8J4nRld>O3_Q^HgT4`g0
+IF]Ce7?nD5eXKE2>@]FNO`3
+R2
+R0
+w1556503506
+8C:/Users/Administrator/Desktop/HomeWorkFive/simulation/modelsim/HomeWorkFive.vt
+FC:/Users/Administrator/Desktop/HomeWorkFive/simulation/modelsim/HomeWorkFive.vt
+L0 28
+R6
+r1
+!s85 0
+31
+!s108 1556503545.000000
+!s107 C:/Users/Administrator/Desktop/HomeWorkFive/simulation/modelsim/HomeWorkFive.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Administrator/Desktop/HomeWorkFive/simulation/modelsim|C:/Users/Administrator/Desktop/HomeWorkFive/simulation/modelsim/HomeWorkFive.vt|
+!i113 1
+R10
+!s92 -vlog01compat -work work +incdir+C:/Users/Administrator/Desktop/HomeWorkFive/simulation/modelsim
+R12
+n@home@work@five_test
